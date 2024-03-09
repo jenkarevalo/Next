@@ -1,5 +1,4 @@
 import React from "react";
-
 import { AiFillLinkedin, AiOutlineFilePdf, AiFillGithub } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 
