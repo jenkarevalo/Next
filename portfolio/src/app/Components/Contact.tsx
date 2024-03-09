@@ -2,11 +2,11 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="bg-[#252524] font-sans">
-      <section id="contact" className="relative">
+   
+      <div id="contact" className="relative bg-[#252524] font-sans flex-flex-initial">
         <form
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/3 md:w-1/2  md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-Black sm:text-4xl text-3xl mb-1 font-medium title-font text-white">
             ¡Contrátame!
           </h2>
@@ -14,7 +14,7 @@ function Contact() {
             Para mas información contactame!
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-700">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Nombre
             </label>
             <input
@@ -53,8 +53,8 @@ function Contact() {
             Enviar
           </button>
         </form>
-      </section >
-    </div>
+      </div >
+
   );
 }
 
