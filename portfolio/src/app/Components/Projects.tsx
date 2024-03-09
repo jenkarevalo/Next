@@ -32,11 +32,11 @@ const Projects = () => {
   ];
 
   return (
-    <div className="h-screen w-screen flex items-center flex-col bg-[#2B2B29] font-sans">
+    <div className=" w-screen flex items-center flex-col bg-[#2B2B29] font-sans">
       <h2 className="font-semibold text-[40px] text-white font-sans">PROJECTOS</h2>
       <div className="gap-4 mt-10 grid grid-cols-3 md:grid-cols-1 ">
         {projects.map((p) => (
-          <div className="relative w-[300px] h-[300px]  border-red-100 border-spacing-1 border p-2 bg-slate-500 ">
+          <div className="relative w-[500px] h-[300px]  border-red-100 border-spacing-1 border p-2 bg-slate-500 ">
             <img className="object-cover " src={p.projectsImageSrc.src} alt="" />
             <span className="flex flex-col  p-4 absolute  backdrop-blur hover:backdrop-blur-[20px]  inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
               <p className="text-Black">{p.description}</p>
